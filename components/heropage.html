@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero Section</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Times New Roman", Times, serif;
+      padding: 25px;
+      background-image: url(alvin-engler-bIhpiQA009k-unsplash.jpg);
+      background-size: cover;
+      color: #fff;
+      height: 100vh;
+    }
+    .hero {
+      border-bottom: 2px solid black;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 48px;
+      font-size: 44px;
+      color: #343a40;
+      padding: 10px;
+    }
+    .icon {
+      height: 18px;
+      width: 18px;
+      color: #343a40;
+      display: inline-block;
+    }
+    button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+    .nav {
+      font-size: 18px;
+      display: flex;
+      padding-top: 12px;
+      cursor: pointer;
+      color: #343a40;
+      display: flex;
+    }
+    h1 {
+      font-size: 64px;
+      letter-spacing: 0.1;
+    }
+    p {
+      font-size: 18px;
+      margin-top: 4px;
+    }
+    .main-text {
+      margin-top: 100px;
+      margin-left: 800px;
+    }
+    .shop {
+      background-color: #099268;
+      border: none;
+      padding: 18px;
+      margin-top: 12px;
+      color: #fff;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <div class="hero">
+      <span>The</span>
+      <span>Sill</span>
+    </div>
+    <div class="nav">
+      <button>Shop</button>
+      <button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="m19.5 8.25-7.5 7.5-7.5-7.5"
+          />
+        </svg>
+      </button>
+      <button>New Arrivals</button>
+      <button>Ready to Ship items</button>
+      <button>Online Workshops</button>
+      <button>Store Locations</button>
+      <button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon search-bar"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+          />
+        </svg>
+      </button>
+      <button class="search-bar">Search</button>
+      <button class="search-bar">Log In</button>
+      <button class="search-bar">Cart (0)</button>
+    </div>
+    <div class="main-text">
+      <h1>Your Lushest Season Yet</h1>
+      <p>Bring the outdoors in with our bundles & new arrivals.</p>
+      <button class="shop">Shop Now</button>
+    </div>
+  </body>
+</html>
